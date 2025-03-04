@@ -8,13 +8,13 @@ const SearchInput = () => {
   return (
     <Button
       variant="outline"
-      className="relative h-8 w-full flex-1 justify-start rounded-md bg-muted/25 text-sm font-normal text-muted-foreground shadow-none hover:bg-muted/50 sm:pr-12 md:w-56 md:flex-none lg:w-60 xl:w-80"
+      className="relative h-8 w-full flex-1 justify-start rounded-md bg-muted/25 text-sm font-normal text-muted-foreground shadow-none hover:bg-muted/50 sm:pr-8 md:w-48 md:flex-none lg:w-56 xl:w-64"
     >
       <Search />
-      <span className="ml-3">placeholder</span>
-      <kbd className="pointer-events-none absolute right-[0.3rem] top-[0.3rem] hidden h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex">
+      <span className="ml-2">placeholder</span>
+      {/* <kbd className="pointer-events-none absolute right-[0.3rem] top-[0.3rem] hidden h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex">
         <span className="text-xs">⌘</span>K
-      </kbd>
+      </kbd> */}
     </Button>
   )
 }
